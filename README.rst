@@ -32,11 +32,9 @@ Howto
 
 1. Package the octavia_dashboard by running::
 
-    python setup.py sdist
+    python setup.py install
 
-   This will create a python egg in the dist folder, which can be used to
-   install on the horizon machine or within horizon's python virtual
-   environment.
+   This will install Octavia Dashboard with all relevant packages to your Horizon environment.
 
 2. Copy ``_1482_project_load_balancer_panel.py`` in
    ``octavia_dashboard/enabled`` directory
